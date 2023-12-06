@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #222;
+    background: #535353;
 }
 .hide {
     display: none;
@@ -22,6 +22,7 @@ body {
 .slider__line {
     position: relative;
     width: 1000px;
+    
     /* height: 600px; */
 }
 
@@ -34,6 +35,20 @@ body {
 .btn {
     cursor: grabbing;
     width: 50px;
-    background: green;
+    height: 50px;
     z-index: 2;
+    background: none;
+    border: none;
+    position: absolute;
+    outline: none;
+    position: relative;
 }
+.btn img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+/* .btn img {
+    width: 100%;
+} */
